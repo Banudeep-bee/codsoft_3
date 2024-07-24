@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #2e2ec5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 100px;
+    padding: 1%;
+}
+
+.display {
+    background-color: #91effa;
+    color: #000000;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Codesoft{
+    margin: 10px 10px 10px 10px;
+    color: #f0f0f0;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.btn {
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.la{
+    grid-column: span 2;
+  
+}
+
+.btn:active {
+    background-color: #ccc;
+}
+
+.operator {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.operator:active {
+    background-color: #e57c00;
+}
+
+#equals {
+    grid-column: span 2;
+    background-color: #00bfff;
+    color: #fff;
+}
+
+#equals:active {
+    background-color: #009fdf;
+}
+
+#clear {
+    grid-column: span 2;
+    background-color: #ff4040;
+    color: #fff;
+}
+
+#clear:active {
+    background-color: #e53939;
+}
